@@ -3,6 +3,7 @@ myportfoliodata
 
 ## usage
 
+### init
 
 ```
 $ git clone https://github.com/matumotoyuri/myportfolio.git
@@ -14,9 +15,28 @@ $ npm install hexo-cli -g
 $ npm install
 ```
 
+### post new article
+
 ```
 $ hexo new article_name
 ```
 
-create `source/_posts/article/` folder and `source/_posts/article.md`
+change `source/_posts/article_name.md` with markdown.
 
+### test
+
+```
+$ hexo server
+```
+
+Check your browser at `http://localhost:4000`.
+
+### deploy
+
+```
+$ hexo generate
+```
+
+```
+$ git commit -am "commit message"
+```
