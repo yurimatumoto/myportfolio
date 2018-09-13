@@ -24,7 +24,7 @@ $ hexo new article_name
 `article_name` には記事タイトルをいれてください。
 
 `source/_posts/article_name.md` が作られているので記事を編集してください。
-記事で使いたい画像は、`docs/images/`の下においてください。
+記事で使いたい画像は、`source/images/`の下においてください。
 
 `.md` の中は以下のように書いてください。
 
