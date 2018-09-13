@@ -1,6 +1,6 @@
 ---
 title: article3
-cover_image: images/article3.jpg
+cover_image: /images/article3.jpg
 date: 2018-09-11 13:27:48
 ---
 
