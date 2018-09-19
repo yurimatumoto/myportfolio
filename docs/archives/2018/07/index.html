@@ -41,11 +41,14 @@
 
 
   <body>
-  	<div class="container-fluid navbar-container m-sm-5">
+  	<div class="container-fluid navbar-container m-sm-5 max-width-container bg-white">
       <!-- Header -->
-      <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
-  <a class="navbar-brand ml-2" href="/myportfolio/">MATUMOTO YURI</a>
-  <button class="navbar-toggler navbar-toggler-right py-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="top-banner-container">
+  <img src="/myportfolio/images/top_banner.jpg" alt="">
+</div>
+<nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm">
+  <a class="navbar-brand" href="/myportfolio/">MATUMOTO YURI</a>
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse text-center" id="navbarCollapse">
@@ -68,14 +71,13 @@
         </li>
       
     </ul>
-    <hr class="hidden-md-up" />
   </div>
 </nav>
 
 
   		<div class="row row-padding">
   			
-    <div class="col-md-4 col-12 mb-4 padding-50">
+    <div class="col-md-6 col-12">
   <div class="hovereffect">
     <a href="/myportfolio/2018/07/23/new-article2/">
       <img class="img-fluid portfolio-img" src="/myportfolio/images/article2.jpg" alt="new_article2">
@@ -88,7 +90,7 @@
 </div>
 
 
-    <div class="col-md-4 col-12 mb-4 padding-50">
+    <div class="col-md-6 col-12">
   <div class="hovereffect">
     <a href="/myportfolio/2018/07/23/new-article/">
       <img class="img-fluid portfolio-img" src="/myportfolio/images/article1.jpg" alt="new_article">
@@ -104,7 +106,17 @@
 
       </div>
       
-  	</div>
+
+    </div>
+
+    <footer class="footer max-width-container py-3">
+      <div class="container text-right">
+        <p class="text-white">
+          &copy; YURI MATSUMOTO 2018 / Source and Licenses<br>
+          Lovingly made by MATSUMOTO YURI and TAKEDA HIROSHI
+        </p>
+      </div>
+    </footer>
 
     <!-- After footer scripts -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
