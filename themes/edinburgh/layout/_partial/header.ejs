@@ -1,6 +1,22 @@
+<% if (page.path == 'index.html'){ %>
 <div class="top-banner-container">
   <img src="/myportfolio/images/top_banner.jpg" alt="">
 </div>
+<% } else if (page.path == 'about/index.html'){ %>
+  <div class="about-banner-container">
+      <img src="/myportfolio/images/about_banner.jpg" alt="">
+      <div class="about-banner-text-container">
+        <p class="title">MATUMOTO YURI</p>
+        <p>motion design</p>
+        <p>UI UX interatction design</p>
+        <p>art director</p>
+      </div>
+  </div>
+<% } else { %>
+  <div class="top-banner-container">
+      <img src="/myportfolio/images/article_banner.jpg" alt="">
+  </div>
+<% } %>
 <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm">
   <a class="navbar-brand" href="<%- config.root %>"><%-config.title || ""%></a>
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">

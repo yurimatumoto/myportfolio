@@ -190,7 +190,7 @@ h1, h2, h3 {
 }
 
 .hovereffect:hover img {
-  opacity: 0;
+  opacity: 0.7;
   filter: alpha(opacity=0);
 }
 .page-nav {
@@ -253,6 +253,44 @@ img {
 	margin: 0;
 	top: 0;
 	left: 0;
+}
+
+.about-banner-container {
+	position: relative;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	top: 0;
+	left: 0;
+}
+
+.about-banner-text-container {
+	position: absolute;
+	bottom: 40px;
+	right: 120px;
+	top: auto;
+	left: auto;
+}
+
+@media screen and (max-width: 600px) {
+	.about-banner-text-container {
+		bottom: auto;
+		right: auto;
+		bottom: 20px;
+		left: 20px;
+	}
+}
+
+.about-banner-text-container p {
+	color: #fff;
+	margin-bottom: 0.1rem;
+	font-size: 1.2em;
+}
+
+.about-banner-text-container p.title {
+	margin-bottom: 1.0rem;
+	font-size: 1.4em;
+	font-weight: bold;
 }
 
 .navbar {
