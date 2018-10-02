@@ -67,10 +67,10 @@ h1, h2, h3 {
 
 .navbar-brand {
 	font-weight: 400;
-	font-size: 1.0em;
+	font-size: 1.5em;
 	font-weight: bold;
 	letter-spacing: 0.5px;
-	color: #fff;
+	color: #888 !important;
 	padding-top: 30px;
 	padding-bottom: 0;
 	padding-left: 60px;
@@ -109,7 +109,7 @@ h1, h2, h3 {
 
 .nav-item {
 	font-size: 0.8rem;
-	font-weight: 300;
+	font-weight: bold;
 	letter-spacing: 1.5px;
 }
 
@@ -212,9 +212,9 @@ body {
 }
 
 .row-padding {
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-top: 60px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 100px;
 }
 
 @media screen and (max-width: 600px) {
@@ -242,7 +242,7 @@ img {
 }
 
 .max-width-container {
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto !important;
 	padding: 0;
 }
@@ -301,7 +301,8 @@ img {
 }
 
 .nav-link {
-	color: #fff !important;
+	color: #888 !important;
+	padding-left: 3.5rem !important;
 }
 
 .nav-link:hover {
