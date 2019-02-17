@@ -1,0 +1,354 @@
+body {
+    margin: 0 auto;
+    color: #3B3D40;
+    font-size: 16px;
+    font-family: "Noto Sans JP";
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+a, a:link, a:visited {
+    color: #3B3D40;
+    text-decoration: none
+}
+
+.pt-80px {
+    padding-top: 80px;
+}
+
+.pt-header {
+    padding-top: 160px;
+}
+
+.pt-row {
+    padding-top: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+    .pt-header {
+        padding-top: 80px;
+    }
+
+    .pt-row {
+        padding-top: 0;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+.hero-img {
+    width: 100%;
+    height: 400px;
+    padding-top: calc(300 / 1000 * 100%); /* calc(画像高さ ÷ 画像横幅 × 100%) */
+    margin: 0 0 80px;
+    background: url(/images/top.jpg) center center / cover no-repeat;
+}
+
+.hero-img-video {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    /* background: linear-gradient(90deg, #84beff, #ffef39 50%, #84beff) */
+}
+
+.hero-img-video > video {
+    width: 100%;
+    margin: 80px auto 80px;
+    display: block;
+    overflow: hidden;
+}
+
+.hero-img-video > img {
+    display: none;
+}
+
+.hero-img-video > video.full {
+    width: 100%;
+    height: auto;
+    max-width: none;
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .hero-img-video {
+        height: 600px;
+        overflow: hidden;
+    }
+
+    .hero-img-video > video.full {
+        width: auto;
+        height: 480px;
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.my-header {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;    
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.my-header a, a:link, a:visited {
+    color: #000;
+    text-decoration: none
+}
+
+.my-header-sp {
+    display: none;
+    padding: 5px 20px;
+    width: 100%;
+}
+
+.my-header-sp > .logo {
+    margin-right: auto;
+}
+
+.my-header-sp > .logo > img {
+    height: 22px;
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.my-header-sp > .menu-icon {
+    display: block;
+    padding: 20px 10px;
+}
+
+.my-header-sp > .menu-icon-close {
+    display: none;
+    padding: 20px 10px;
+    z-index: 1000;
+    color: #fff;
+}
+
+.my-header-sp > .menu-container {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);;
+    height: 100%;
+    z-index: 100;
+    padding-top: 60px;
+}
+
+.my-header-sp > .menu-container > .menu {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.my-header-pc {
+    display: block;
+    padding: 30px 0 10px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    font-size: 0.87rem;
+    letter-spacing: 2.8px;
+    color: #000;
+}
+
+@media screen and (max-width: 1140px) {
+    .my-header-pc {
+        padding: 30px 20px 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .my-header-pc {
+        display: none;
+    }
+
+    .my-header-sp {
+        display: flex;
+    }
+}
+
+.my-header .logo {
+    height: 40px;
+    margin-right: auto;
+}
+
+.my-header .logo img {
+    height: 22px;
+    width: auto;
+}
+
+
+.my-header .menu {
+    padding: 0 36px;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.my-header .menu:last-child {
+    padding-right: 0;
+}
+
+.my-footer {
+    width: 100%;
+    height: 200px;
+    margin: 40px 0 0;
+    text-align: right;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .my-footer {
+        font-size: 0.7rem;
+    }
+}
+
+.my-footer .sns_menu ul {
+    text-align: center;
+    padding: 0;
+}
+
+.my-footer .sns_menu ul li {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 1.5rem;
+}
+
+.my-card {
+    padding-bottom: 40px; 
+}
+
+.my-card:hover {
+    opacity: 0.7;
+}
+
+.my-card .image-wrap {
+    overflow: hidden;
+}
+
+.my-card img {
+    transition-duration: 0.4s;
+}
+
+.my-card:hover img {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+.my-card .title {
+    font-weight: bold;
+    padding: 10px 0 0;
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.my-card .subtitle {
+    font-weight: normal;
+    font-size: 0.8rem;
+    padding: 0;
+    margin: 0;
+    font-size: 1.0rem;
+}
+
+/* ----- about ----- */
+.my-about {
+    width: 70%;
+    margin: 40px auto;
+}
+
+.my-about-topimage {
+    margin: 0 auto 40px;
+}
+
+.my-about-topimage-sp {
+    display: none;
+}
+
+.my-about h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.56rem;
+}
+
+.my-about dl dt {
+    font-weight: normal;
+    float: left;
+    width: 8rem;
+}
+
+.my-about dl dd {
+    padding-left: 8rem;
+}
+
+@media screen and (max-width: 600px) {
+    .my-about {
+        width: 100%;
+    }
+
+    .my-about-topimage {
+        display: none;
+    }
+
+    .my-about-topimage-sp {
+        display: block;
+    }    
+
+    .my-about h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.my-work-title h2 {
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-size: 1.56rem;
+}
+
+.my-work-title p {
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.my-work-content p {
+    line-height: 1.75;
+}
+
+.my-work-content video {
+    width: 100%;
+}
+
+.my-contact .lead-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .my-contact .lead-text {
+        font-size: 1.0rem;
+        font-weight: bold;
+    }
+}
+
+.my-contact .form {
+    width: 100%;
+}
+
+.my-contact iframe {
+    width: 100%;
+    height: 800px;
+}
