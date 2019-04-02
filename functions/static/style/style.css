@@ -1,8 +1,31 @@
+.container {
+    max-width: 1200px !important;
+}
+
 body {
     margin: 0 auto;
     color: #3B3D40;
     font-size: 16px;
     font-family: "Noto Sans JP";
+    letter-spacing: 0.0675rem;
+}
+
+.pc {
+    display: block !important;
+}
+
+.sp {
+    display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+    .pc {
+        display: none !important;
+    }
+    
+    .sp {
+        display: block !important;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -186,6 +209,13 @@ img {
 .my-header .logo {
     height: 40px;
     margin-right: auto;
+    padding-left: 100px;
+}
+
+@media screen and (max-width: 800px) {
+    .my-header .logo {
+        padding-left: 0;
+    }
 }
 
 .my-header .logo img {
@@ -201,7 +231,7 @@ img {
 }
 
 .my-header .menu:last-child {
-    padding-right: 0;
+    padding-right: 60px;
 }
 
 .my-footer {
@@ -266,11 +296,6 @@ img {
 }
 
 /* ----- about ----- */
-.my-about {
-    width: 70%;
-    margin: 40px auto;
-}
-
 .my-about-topimage {
     margin: 0 auto 40px;
 }
@@ -280,7 +305,7 @@ img {
 }
 
 .my-about h2 {
-    text-align: center;
+    text-align: left;
     margin: 20px 0;
     font-size: 1.56rem;
 }
@@ -293,11 +318,15 @@ img {
 
 .my-about dl dd {
     padding-left: 8rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 600px) {
     .my-about {
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .my-about-topimage {
@@ -311,6 +340,16 @@ img {
     .my-about h2 {
         font-size: 1.5rem;
     }
+
+    .my-about dl dt {
+        float: none;
+        padding-bottom: 5px;
+    }
+    
+    .my-about dl dd {
+        padding-left: 0;
+    }
+    
 }
 
 .my-work-title h2 {
@@ -319,6 +358,7 @@ img {
     font-size: 1.56rem;
 }
 
+
 .my-work-title p {
     font-weight: bold;
     line-height: 1.5;
@@ -326,6 +366,11 @@ img {
 
 .my-work-content p {
     line-height: 1.75;
+}
+
+.my-work-content h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .my-work-content video {
