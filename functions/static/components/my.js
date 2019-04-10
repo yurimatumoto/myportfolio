@@ -2,11 +2,12 @@ class MyHeader extends HTMLElement {
   constructor() {
     super();
     this.innerHTML = `
-      <div id="js--app" class="my-header">
+      <div id="js--app" class="my-header spacer">
         <!-- PC -->
         <div class="my-header-pc">
           <a class="logo" href="/">
             <img src="/images/logo.png" alt="matsumoto yuri">
+            <img src="/images/logo_hover.png" alt="matsumoto yuri" class="active">
           </a>
           <a class="menu" href="/works/">
             <span>WORKS</span>
@@ -51,6 +52,7 @@ class MyHeader extends HTMLElement {
           </div>
         </div>
       </div>
+      <div class="my-header-spacer"></div>
     `;
   }
 }
