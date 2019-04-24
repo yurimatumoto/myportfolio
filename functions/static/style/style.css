@@ -7,8 +7,8 @@ body {
     color: #3B3D40;
     font-size: 16px;
     font-family: "Noto Sans JP";
-    letter-spacing: 0.1em;
-    line-height: 24px;
+    letter-spacing: 0.15em;
+    line-height: 1.75px;
 }
 
 @media screen and (max-width: 768px) {
