@@ -152,6 +152,13 @@ img {
     display: block;
 }
 
+.hero-img-video > video.full_sp {
+    width: 100%;
+    height: auto;
+    max-width: none;
+    display: block;
+}
+
 @media screen and (max-width: 600px) {
     .hero-img-video {
         height: 600px;
