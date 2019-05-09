@@ -161,7 +161,6 @@ img {
 
 @media screen and (max-width: 600px) {
     .hero-img-video {
-        height: 600px;
         overflow: hidden;
     }
 
