@@ -52,8 +52,45 @@ functions/
 
 labの作成も同じで `article` を作成した後に、 `lab/index.html` からのリンクを作成してください。
 
+## TopページやWORKSページのタイルの追加方法
+
+
+基本的には以下が、１行（横１列）のコードで `<br>` のところにタイルを挿入してください。
+2行3行と行自体を増やしたい場合には、この `row` のまとまりごと追加してください。
+
+```
+    <!-- ROW -->
+		<div class="row">
+      <!-- 1 x 1 -->
+      <div class="col-md-4 column">
+        <br>
+      </div>
+      <!-- 1 x 2 -->
+      <div class="col-md-4 column">
+        <br>
+      </div>
+      <!-- 1 x 3 -->
+      <div class="col-md-4 column">
+        <br>
+      </div>
+    </div>
+```
+
 ## ページ編集について
 
 基本的にはかぎりなく素のBootstrap v4を使ってますので、Bootstrapの流儀にしがたってくれたら大丈夫です。
 独自にスタイルを定義したい場合には `style/style.css` を編集してください。
+
+## ローカルでの確認方法
+
+何でも良いのでHTTPサーバをたてます。
+簡単な手順は以下です。
+
+```
+$ npm install -g http-server
+$ cd functions/static
+$ http-server
+```
+
+これで通常であれば `http://localhost:8080` で編集中のコードが確認可能です。
 
