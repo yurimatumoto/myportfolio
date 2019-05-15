@@ -6,8 +6,8 @@ class MyHeader extends HTMLElement {
         <!-- PC -->
         <div class="my-header-pc">
           <a class="logo" href="/">
-            <img src="/images/logo.png" alt="matsumoto yuri">
-            <img src="/images/logo_hover.png" alt="matsumoto yuri" class="active">
+            <img src="/images/logo.svg" alt="matsumoto yuri">
+            <img src="/images/logo_hover.svg" alt="matsumoto yuri" class="active">
           </a>
           <a class="menu" href="/works/">
             <span>WORKS</span>
