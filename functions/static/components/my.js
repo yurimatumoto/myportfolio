@@ -6,7 +6,7 @@ class MyHeader extends HTMLElement {
         <!-- PC -->
         <div class="my-header-pc">
           <a class="logo" href="/">
-            <img src="/images/logo.svg" alt="matsumoto yuri">
+            <img src="/images/logo.svg" alt="matsumoto yuri" class="nonactive">
             <img src="/images/logo_hover.svg" alt="matsumoto yuri" class="active">
           </a>
           <a class="menu" href="/works/">
@@ -25,7 +25,7 @@ class MyHeader extends HTMLElement {
         <!-- SP -->
         <div class="my-header-sp">
           <a class="logo" href="/">
-            <img src="/images/logo.png" alt="matsumoto yuri">
+            <img src="/images/logo.svg" alt="matsumoto yuri">
           </a>
           <a href="#" class="menu-icon" id="js--sp-menu">
             <i class="fas fa-bars"></i>
