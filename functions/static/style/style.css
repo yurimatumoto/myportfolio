@@ -266,6 +266,7 @@ img {
 }
 
 .my-header-pc > .logo > img {
+    height: 22px;
     width: auto;
     position: absolute;
     left: 0;
