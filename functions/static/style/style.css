@@ -195,14 +195,14 @@ img {
 }
 
 .my-header-sp > .logo {
-    height: 28px;
-    width: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-right: auto;
+    position: relative;
+    height: 40px;
+    margin-left: 0;
 }
 
 .my-header-sp > .logo > img {
-    height: auto;
+    height: 28px;
     width: auto;
     margin-top: 20px;
     margin-bottom: 20px;
