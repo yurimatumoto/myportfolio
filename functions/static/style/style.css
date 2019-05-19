@@ -202,10 +202,10 @@ img {
 }
 
 .my-header-sp > .logo > img {
-    height: 26px;
+    height: auto;
     width: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .my-header-sp > .menu-icon {
