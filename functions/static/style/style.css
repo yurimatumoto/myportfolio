@@ -105,6 +105,18 @@ a:hover {
     padding-top: 3rem;
 }
 
+.grid-row-width {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+    .grid-row-width {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .pt-header {
         padding-top: 80px;
@@ -126,6 +138,22 @@ img {
     margin: 0 0 80px;
     background: url(/images/top.jpg) center center / cover no-repeat;
 }
+
+.hero-img-video-vimeo {
+    width: 100%;
+    position: relative;
+    height: 0;
+    padding: 0 0 56.25%;
+    overflow: hidden;
+}
+
+.hero-img-video-vimeo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} 
 
 .hero-img-video {
     width: 100%;
@@ -202,7 +230,7 @@ img {
 }
 
 .my-header-sp > .logo > img {
-    height: 28px;
+    height: 40px;
     width: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -211,6 +239,7 @@ img {
 .my-header-sp > .menu-icon {
     display: block;
     padding: 20px 10px;
+    font-size: 20px;
 }
 
 .my-header-sp > .menu-icon-close {
@@ -218,6 +247,7 @@ img {
     padding: 20px 10px;
     z-index: 1000;
     color: #fff;
+    font-size: 20px;
 }
 
 .my-header-sp > .menu-container {
@@ -256,13 +286,6 @@ img {
     position: relative;
     height: 40px;
     margin-right: auto;
-    margin-left: 100px;
-}
-
-@media screen and (max-width: 1200px) {
-    .my-header-pc .logo {
-        margin-left: 0;
-    }
 }
 
 .my-header-pc > .logo > img {
@@ -281,7 +304,7 @@ img {
     opacity: 1;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1200px) {
     .my-header-pc {
         padding: 30px 20px 10px;
     }
