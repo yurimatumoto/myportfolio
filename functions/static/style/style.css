@@ -131,7 +131,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 544px) {
     .pt-header {
         padding-top: 80px;
     }
@@ -201,7 +201,7 @@ img {
     display: block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 544px) {
     .hero-img-video {
         overflow: hidden;
     }
@@ -324,7 +324,7 @@ img {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .my-header-pc {
         display: none;
     }
@@ -431,7 +431,7 @@ img {
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 544px) {
     .my-about {
         width: 80%;
         margin: 0 auto;
@@ -469,7 +469,7 @@ img {
     font-weight: bold;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 544px) {
     .my-contact .lead-text {
         font-size: 1.0rem;
         font-weight: bold;
