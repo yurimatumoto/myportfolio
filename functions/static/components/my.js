@@ -24,7 +24,7 @@ class MyHeader extends HTMLElement {
         <!-- SP -->
         <div class="my-header-sp">
           <a class="logo" href="/">
-            <img src="/images/logo.png" alt="matsumoto yuri">
+            <img src="/images/M_logo.svg" alt="matsumoto yuri">
           </a>
           <a href="#" class="menu-icon" id="js--sp-menu">
             <i class="fas fa-bars"></i>
