@@ -3,10 +3,10 @@
     "public": "public",
     "rewrites": [
       {
-        "source": "**",
+        "source": "private",
         "function": "app"
       }
-    ],
+    ],*/
     "ignore": [
       "firebase.json",
       "**/.*",
