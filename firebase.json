@@ -6,7 +6,7 @@
         "source": "private",
         "function": "app"
       }
-    ],*/
+    ],
     "ignore": [
       "firebase.json",
       "**/.*",
