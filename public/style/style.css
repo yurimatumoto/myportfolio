@@ -470,10 +470,6 @@ img {
     
 }
 
-.my-work-content img {
-    margin-bottom: 20px;
-}
-
 .my-work-content video {
     width: 100%;
 }
@@ -497,4 +493,13 @@ img {
 .my-contact iframe {
     width: 100%;
     height: 800px;
+}
+
+/* --- */
+.pb-image {
+    padding-bottom: 1.6rem;
+}
+
+.pb-article {
+    padding-bottom: 4rem;
 }
