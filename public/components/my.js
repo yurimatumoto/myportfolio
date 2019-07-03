@@ -67,8 +67,10 @@ class MyFooter extends HTMLElement {
             <div class="sns_menu">
               <ul>
                 <li><a href="https://www.behance.net/matumoto-yuri" target="_blank"><i class="fab fa-behance"></i></a></li>
+                <li><a href="https://dribbble.com/matumotoyuri" target="_blank"><i class="fab fa-dribbble"></i></a></li>
                 <li><a href="https://vimeo.com/user43096074" target="_blank"><i class="fab fa-vimeo-v"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/yuri-matumoto-935386146/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://medium.com/@matsuyuri" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+<li><a href="https://www.linkedin.com/in/yuri-matumoto-935386146/" target="_blank"><i class="fab fa-medium"></i></a></li>
               </ul>
             </div>
             &copy; MATUMOTO YURI 2019 / Source and Licenses<br>
