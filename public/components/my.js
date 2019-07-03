@@ -8,9 +8,6 @@ class MyHeader extends HTMLElement {
           <a class="logo" href="/">
             <img src="/images/logo.svg" alt="matsumoto yuri">
           </a>
-          <a class="menu" href="/works/">
-            <span>WORKS</span>
-          </a>
           <a class="menu" href="/about/">
             <span>ABOUT</span>
           </a>
